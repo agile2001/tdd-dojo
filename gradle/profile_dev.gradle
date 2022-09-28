@@ -1,13 +1,7 @@
-sourceSets {
-    test {
-        java {
-            exclude 'com/agile2001/tdd/config/MysqlTestContainer.java'
-        }
-    }
-}
 dependencies {
     developmentOnly "org.springframework.boot:spring-boot-devtools:${springBootVersion}"
-    implementation "com.h2database:h2"
+    implementation "mysql:mysql-connector-java"
+    liquibaseRuntime "mysql:mysql-connector-java"
     testImplementation "org.testcontainers:mysql"
 }
 
