@@ -1,0 +1,8 @@
+{
+  "generator-jhipster:7.9.3": {
+    "promptValues": {
+      "packageName": "com.agile2001.tdd",
+      "nativeLanguage": "zh-cn"
+    }
+  }
+}

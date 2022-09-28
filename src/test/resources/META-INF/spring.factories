@@ -1,0 +1,1 @@
+org.springframework.test.context.ContextCustomizerFactory = com.agile2001.tdd.config.TestContainersSpringContextCustomizerFactory
