@@ -10,6 +10,9 @@
 
 spring:
   datasource:
+    #    url: jdbc:mysql://localhost:3306/youju_test?useUnicode=true&characterEncoding=utf8&useSSL=false&useLegacyDatetimeCode=false&serverTimezone=Asia/Shanghai&createDatabaseIfNotExist=true
+    #    username: root
+    #    password: 111111
     type: com.zaxxer.hikari.HikariDataSource
     hikari:
       auto-commit: false

@@ -280,6 +280,9 @@ dependencies {
     liquibaseRuntime sourceSets.main.compileClasspath
     liquibaseRuntime "org.liquibase.ext:liquibase-hibernate5:${liquibaseHibernate5Version}"
     //jhipster-needle-gradle-dependency - JHipster will add additional dependencies here
+
+    implementation group: 'com.alibaba', name: 'fastjson', version: '1.2.79'
+    testImplementation "com.approvaltests:approvaltests:18.3.0"
 }
 
 if (project.hasProperty("gae")) {

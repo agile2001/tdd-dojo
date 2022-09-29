@@ -1,0 +1,30 @@
+{
+  "applications": "*",
+  "changelogDate": "20220928172100",
+  "clientRootFolder": "tddDojo",
+  "databaseType": "sql",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "sys_role",
+  "fields": [
+    {
+      "fieldName": "roleName",
+      "fieldType": "String",
+      "javadoc": "角色名称"
+    },
+    {
+      "fieldName": "roleKey",
+      "fieldType": "String",
+      "javadoc": "角色编码"
+    }
+  ],
+  "fluentMethods": true,
+  "javadoc": "角色",
+  "jpaMetamodelFiltering": false,
+  "microserviceName": "tddDojo",
+  "name": "Role",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceImpl"
+}

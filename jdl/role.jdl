@@ -1,0 +1,15 @@
+
+/** 角色 **/
+entity Role(sys_role) {
+    /** 角色名称 */
+    roleName String
+    /** 角色编码 */
+    roleKey String
+}
+
+
+dto * with mapstruct
+
+paginate Role with pagination
+
+service all with serviceImpl
