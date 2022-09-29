@@ -1,5 +1,11 @@
 # tddDojo
 
+环境准备：
+数据库配置： resources/config/application-dev.yml
+测试类启动参数（可以添加到运行模板中，避免每次都添加）：spring.profiles.active=dev
+
+#
+
 This application was generated using JHipster 7.9.3, you can find documentation and help at [https://www.jhipster.tech/documentation-archive/v7.9.3](https://www.jhipster.tech/documentation-archive/v7.9.3).
 
 This is a "microservice" application intended to be part of a microservice architecture, please refer to the [Doing microservices with JHipster][] page of the documentation for more information.
