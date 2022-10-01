@@ -9,6 +9,7 @@ buildscript {
 
 plugins {
     id "java"
+    id "groovy"
     id "maven-publish"
     id "idea"
     id "eclipse"
@@ -283,6 +284,8 @@ dependencies {
 
     implementation group: 'com.alibaba', name: 'fastjson', version: '1.2.79'
     testImplementation "com.approvaltests:approvaltests:18.3.0"
+
+    implementation 'org.spockframework:spock-core:2.3-groovy-4.0'
 }
 
 if (project.hasProperty("gae")) {
